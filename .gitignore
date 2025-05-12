@@ -1,0 +1,52 @@
+# === Java ===
+*.class
+*.jar
+*.war
+*.ear
+
+# === Maven ===
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+
+# === Eclipse ===
+.project
+.classpath
+.settings/
+.apt_generated/
+.factorypath
+
+# === STS (Spring Tool Suite) ===
+.springBeans
+
+# === OS-specific files ===
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# === Logs ===
+*.log
+
+# === IDEs (optional, in case used) ===
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# === VS Code (optional) ===
+.vscode/
+
+# === Other common excludes ===
+*.tmp
+*.bak
+*.swp
+*~
+
+# === Test reports ===
+/test-output/
+surefire-reports/
+
+# === Spring Boot Devtools ===
+.spring-boot-devtools.properties
+.spring-boot-devtools.yml
